@@ -32,6 +32,7 @@ int main()
     string myline, myline1;
     double averperday; 
     
+    
     inputfile.open("C:\\Users\\Wally\\Desktop\\strangers.txt"); 
     //inputfile.open("C:\\Users\\Wally\\Desktop\\strangers1.txt"); 
     inputfile1.open("C:\\Users\\Wally\\Desktop\\strangerorderinfo.txt");
@@ -71,12 +72,12 @@ while(inputfile1)
                                                 j=i+1;
                                                 snum=myline1[j];
                                                 snum=snum+myline1[j+1]+myline1[j+2]+myline1[j+3]+myline1[j+4]+myline1[j+5];
-                                                int num = atoi(snum.c_str()); //string to int
+                                                num = atoi(snum.c_str()); //string to int
                                                 nums.push_back(num);
                                                 
                                                 snumday=myline1[j+2];
                                                 snumday=snumday+myline1[j+3];
-                                                int numday=atoi(snumday.c_str()); 
+                                                numday=atoi(snumday.c_str()); 
                                                 numsday.push_back(numday); //filling vector with ints
                                                }  
                                                
@@ -85,7 +86,7 @@ while(inputfile1)
                                                 j=i+1;
                                                 snum1=myline1[j];
                                                 snum1=snum1+myline1[j+1]+myline1[j+2]+myline1[j+3]+myline1[j+4];
-                                                double num1 = atof(snum1.c_str()); //string to double
+                                                num1 = atof(snum1.c_str()); //string to double
                                                 nums1.push_back(num1); //filling vector with ints
                                                }                                  
                                }                                 
@@ -208,7 +209,7 @@ while(inputfile)
                              {
                                  if(l==1)
                                  {
-                             cout<<"Not eligable to be sent a sales coupon"<<endl;
+                             cout<<"Not eligible to be sent a sales coupon"<<endl;
                                  }    
                              }    
                                           
