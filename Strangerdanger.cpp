@@ -159,7 +159,7 @@ while(inputfile)
                                             
                                 if ((k < 7) && (l==1))
                                    {
-                                    cout<<"The cross-dresser ";
+                                    cout<<"The customer ";
                                                 for(i=0; i <= processstranger(myline); i++)
                                                 {                                  
                                                       if(myline[i]==',')
@@ -182,7 +182,7 @@ while(inputfile)
                                     
                                      if ((k==7)&& (l==1))
                                    {
-                                   cout<<"The cross-dresser ";
+                                   cout<<"The customer ";
                                    for(i=0; i <= processstranger(myline); i++)
                                             {  
                                                                
